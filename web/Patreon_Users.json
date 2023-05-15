@@ -2,28 +2,28 @@
     "Patreon": {
         "Teir1": {
             "Name": "Teir1",
-            "Users": {
-                "User1": "HELLSANGEL",
-                "User2": "Larkos",
-                "User3": "No Fox Given"
-            }
+            "Users": [
+                "HELLSANGEL",
+                "Larkos",
+                "No Fox Given"
+            ]
         },
         "Teir2": {
             "Name": "Teir2",
-            "Users": {
-                "User1": "Kendar",
-                "User2": "Killer_bigpoint",
-                "User3": "Kiwj",
-                "User4": "NoCap"
-            }
+            "Users": [
+                "Kendar",
+                "Killer_bigpoint",
+                "Kiwj",
+                "NoCap"
+            ]
         },
         "Teir3": {
             "Name": "Teir3",
-            "Users": {
-                "User1": "Quack's Quack",
-                "User2": "McHauge",
-                "User3": "Zom"
-            }
+            "Users": [
+                "Quack's Quack",
+                "McHauge",
+                "Zom"
+            ]
         }
     }
 }

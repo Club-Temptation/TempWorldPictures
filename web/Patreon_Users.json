@@ -1,7 +1,7 @@
 {
     "Patreon": {
         "Teir1": {
-            "Name": "Teir 1",
+            "Name": "Tier 1",
             "Users": [
                 "HELLSANGEL",
                 "Larkos",
@@ -9,7 +9,7 @@
             ]
         },
         "Teir2": {
-            "Name": "Teir 2",
+            "Name": "Tier 2",
             "Users": [
                 "Kendar",
                 "Killer_bigpoint",
@@ -18,7 +18,7 @@
             ]
         },
         "Teir3": {
-            "Name": "Teir 3",
+            "Name": "Tier 3",
             "Users": [
                 "Quack's Quack",
                 "McHauge",

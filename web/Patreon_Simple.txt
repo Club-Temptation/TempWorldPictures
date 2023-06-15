@@ -2,7 +2,7 @@ Tier 3
 "Killer_Bigpoint, A Upside Down Guy, Mchauge"
 
 Tier 2
-"Thezomz, Kiwj, PurpleMist, Kendar, test"
+"Thezomz, Kiwj, PurpleMist, Kendar"
 
 Tier 1
 "HellSangel, Nofoxgiven, Larkos"

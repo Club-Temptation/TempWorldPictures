@@ -1,8 +1,8 @@
 Tier 3
-Quack's Quack, McHauge, Zom
+""
 
 Tier 2
-Kendar, Killer_bigpoint, Kiwj, NoCap
+""
 
 Tier 1
-HELLSANGEL, Larkos, No Fox Given
+"mchauge"

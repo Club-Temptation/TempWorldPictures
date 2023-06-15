@@ -1,5 +1,5 @@
 Tier 3
-"killer_bigpoint,A Upside Down Guy,mchauge"
+"killer_bigpoint,A,Upside,Down,Guy,mchauge"
 
 Tier 2
 "thezomz,kiwj,PurpleMist,kendar"

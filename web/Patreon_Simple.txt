@@ -1,8 +1,8 @@
 Tier 3
-"killer_bigpoint,A,Upside,Down,Guy,mchauge"
+"Killer_Bigpoint, A Upside Down Guy, Mchauge"
 
 Tier 2
-"thezomz,kiwj,PurpleMist,kendar"
+"Thezomz, Kiwj, PurpleMist, Kendar"
 
 Tier 1
-"HellSangel,nofoxgiven,larkos"
+"HellSangel, Nofoxgiven, Larkos"

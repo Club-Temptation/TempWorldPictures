@@ -2,7 +2,7 @@ Tier 3
 "I'm Who"
 
 Tier 2
-"Thezomz, Kendar, Killer_Bigpoint"
+"Kendar, Killer_Bigpoint"
 
 Tier 1
-"HellSangel, Larkos, LENN'"
+"Thezomz, HellSangel, Nokamitakehira, Larkos, LENN'"

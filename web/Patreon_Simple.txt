@@ -5,4 +5,4 @@ Tier 2
 "Kendar, Killer_Bigpoint"
 
 Tier 1
-"Thezomz, HellSangel, Nokamitakehira, Larkos, LENN'"
+"Thezomz, HellSangel, Nokamitakehira, Larkos"

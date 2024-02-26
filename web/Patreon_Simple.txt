@@ -2,7 +2,7 @@ Tier 3
 "I'm Who"
 
 Tier 2
-"Kendar"
+"Thezomz, Kendar"
 
 Tier 1
-"Thezomz, HellSangel, Larkos, Stihldk"
+"HellSangel, Larkos, Stihldk"

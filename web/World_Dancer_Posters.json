@@ -1,0 +1,8 @@
+{
+  "eventName": "Monday Event - Test",
+  "dancers": [
+    { "name": "Aijiro", "material": "Aijiro" },
+    { "name": "Cookie", "material": "Cookie" },
+    { "name": "Belleza", "material": "Belleza" }
+  ]
+}

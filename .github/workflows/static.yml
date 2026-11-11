@@ -32,16 +32,35 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           lfs: true
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           # Upload entire repository
           path: './web'
+      # The artifact is ~400 MB, so Pages can take a while to sync it, and the
+      # artifact API occasionally isn't ready right after upload ("No artifacts
+      # named github-pages were found"). Give the deploy more time and retry once.
       - name: Deploy to GitHub Pages
-        id: deployment
+        id: deploy_first
+        continue-on-error: true
         uses: actions/deploy-pages@v4
+        with:
+          timeout: 1200000
+      - name: Wait before retrying deploy
+        if: steps.deploy_first.outcome == 'failure'
+        run: sleep 60
+      - name: Deploy to GitHub Pages (retry)
+        id: deploy_retry
+        if: steps.deploy_first.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 1200000
+      - name: Set page URL
+        id: deployment
+        run: echo "page_url=${{ steps.deploy_first.outputs.page_url || steps.deploy_retry.outputs.page_url }}" >> "$GITHUB_OUTPUT"
+
